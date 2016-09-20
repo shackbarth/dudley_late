@@ -16,11 +16,9 @@ This project was generated with the [Angular Full-Stack Generator](https://githu
 
 1. Run `npm install` to install server dependencies.
 
-2. Run `bower install` to install front-end dependencies.
+2. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running
 
-3. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running
-
-4. Run `npm run serve` to start the development server. It should automatically open the client in your browser when ready.
+3. Run `gulp serve` to start the development server. It should automatically open the client in your browser when ready.
 
 ## Build & development
 
