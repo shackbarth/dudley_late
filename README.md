@@ -19,7 +19,7 @@ server/config/environment/development.js  set seedDB:true
 
 2. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running
 
-3. Run `gulp serve` to start the development server. It should automatically open the client in your browser when ready.
+3. Run `npm run serve` to start the development server. It should automatically open the client in your browser when ready.
 
 ## Testing
 

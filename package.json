@@ -118,6 +118,7 @@
     "fetch-lateness": "babel-node server/scripts/run-fetch-lateness.js",
     "test": "mocha --require babel-core/register test && gulp test",
     "update-webdriver": "node node_modules/protractor/bin/webdriver-manager update",
+    "serve": "gulp serve",
     "postinstall": "bower install",
     "start": "node server"
   },
