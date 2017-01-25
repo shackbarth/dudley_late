@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('tTimeApp.dashboard')
+angular.module('tTimeApp')
   .config(function($stateProvider) {
     $stateProvider.state('dashboard', {
       url: '/dashboard',

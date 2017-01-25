@@ -3,9 +3,17 @@
 (function() {
 
   class DashboardController {
-    constructor(User) {
-      // Use the User $resource to fetch all users
-      this.users = User.query();
+    constructor($http, $scope) {
+      console.log($http);
+      $http({
+        method: 'GET',
+        url: '/api/episodes'
+      }).then(function successCallback(response) {
+        $scope.episodes = response.data;
+      }, function errorCallback(response) {
+        // called asynchronously if an error occurs
+        // or server returns response with an error status.
+      });
     }
 
     delete(user) {
@@ -14,6 +22,6 @@
     }
   }
 
-  angular.module('tTimeApp.dashboard')
+  angular.module('tTimeApp')
     .controller('DashboardController', DashboardController);
 })();

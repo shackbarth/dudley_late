@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('tTimeApp', ['tTimeApp.auth', 'tTimeApp.admin', 'tTimeApp.constants',
-    'tTimeApp.dashboard', 'ngCookies',
+    'ngCookies',
     'ngResource', 'ngSanitize', 'ui.router', 'ui.bootstrap', 'validation.match'
   ])
   .config(function($urlRouterProvider, $locationProvider) {

@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('tTimeApp.dashboard', ['tTimeApp.auth', 'ui.router']);
+angular.module('tTimeApp.foo', ['tTimeApp.auth', 'ui.router']);
